@@ -1,10 +1,6 @@
 """Brute force ile çözüldüğü için verimli değil. Daha iyi bir kodlamayla anında çözülebilir ben şuan ancak 23 saniyede sonuç alabiliyorum."""
 
 
-"""2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
-
-What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?"""
-
 number = 5
 divisor = 2
 while divisor < 21:
