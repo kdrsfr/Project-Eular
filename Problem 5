@@ -1,4 +1,4 @@
-"""Brute force ile çözüldüğü için verimli değil. Daha iyi bir kodlamayla anında çözülebilir ben şuan ancak 23 saniyede sonuç alabiliyorum."""
+"""Brute force ile çözüldüğü için verimli değil. Daha iyi bir kodlamayla anında çözülebilir ben şuan ancak 10 saniyede sonuç alabiliyorum."""
 
 
 number = 20
