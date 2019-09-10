@@ -1,7 +1,7 @@
 """Brute force ile çözüldüğü için verimli değil. Daha iyi bir kodlamayla anında çözülebilir ben şuan ancak 23 saniyede sonuç alabiliyorum."""
 
 
-number = 5
+number = 20
 divisor = 2
 while divisor < 21:
     
@@ -9,7 +9,7 @@ while divisor < 21:
     divisor += 1
     
   else:
-    number += 5
+    number += 20
     divisor = 2
       
 print (number)
