@@ -1,0 +1,6 @@
+import numpy as np
+
+a = np.array(list(range(1, 101)))
+asquare = np.square(a)
+
+print((np.sum(a) ** 2) - (asquare.sum()))
