@@ -1,0 +1,28 @@
+counter = 0
+x = 3
+primes= [2]
+while counter != 10000:
+    notprime = False
+
+    for i in range(3, (x//2) + 1, 2):
+        if x % i == 0:
+            notprime = True
+            break
+
+    if notprime == False:
+        primes.append(x)
+        counter += 1
+    x += 2
+
+print(primes[-1])
+
+
+
+
+# or it will be like this    :D
+
+#import sympy
+#print(sympy.prime(10001))
+
+
+
