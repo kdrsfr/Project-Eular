@@ -1,0 +1,4 @@
+import eulerlib
+
+Num = sum(eulerlib.primes(1999999))
+print(Num)
